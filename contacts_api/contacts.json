@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "firstName": "John",
+    "lastName": "Smith",
+    "email": "john.smith@email.com",
+    "phone": "+1 (555) 123-4567",
+    "company": "Tech Solutions Inc.",
+    "notes": "Lead developer, prefers morning meetings"
+  },
+  {
+    "id": "2",
+    "firstName": "Sarah",
+    "lastName": "Johnson",
+    "email": "sarah.johnson@marketing.com",
+    "phone": "+1 (555) 987-6543",
+    "company": "Creative Marketing Agency",
+    "notes": "Marketing director, excellent communication skills"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Davis",
+    "email": "emily.davis@design.studio",
+    "phone": "+1 (555) 321-9876",
+    "company": "Creative Design Studio",
+    "notes": "UI/UX designer, works remotely",
+    "id": "4"
+  },
+  {
+    "id": "5",
+    "firstName": "David",
+    "lastName": "Wilson",
+    "email": "david.wilson@consulting.com",
+    "phone": "+1 (555) 654-3210",
+    "company": "Business Consulting Group",
+    "notes": "Senior consultant, available weekdays only"
+  }
+]
