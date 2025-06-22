@@ -37,11 +37,32 @@ class PostgresService:
                     INSERT INTO contacts (first_name, last_name, email, phone, company, notes)
                     VALUES (%s, %s, %s, %s, %s, %s) RETURNING id
                 """, (
-                    data["firstName"], data["lastName"], data["email"],
-                    data["phone"], data["company"], data["notes"]
+                    data.get("firstName", ""),
+                    data.get("lastName", ""),
+                    data.get("email", ""),
+                    data.get("phone", ""),
+                    data.get("company", ""),
+                    data.get("notes", "")
                 ))
                 conn.commit()
                 return cur.fetchone()[0]
+
+    def insert_many_contacts(self, contacts):
+        with self.connect() as conn:
+            with conn.cursor() as cur:
+                for contact in contacts:
+                    cur.execute("""
+                        INSERT INTO contacts (first_name, last_name, email, phone, company, notes)
+                        VALUES (%s, %s, %s, %s, %s, %s)
+                    """, (
+                        contact.get("firstName", ""),
+                        contact.get("lastName", ""),
+                        contact.get("email", ""),
+                        contact.get("phone", ""),
+                        contact.get("company", ""),
+                        contact.get("notes", "")
+                    ))
+            conn.commit()
 
     def update_contact(self, contact_id, data):
         with self.connect() as conn:
@@ -51,8 +72,13 @@ class PostgresService:
                     first_name=%s, last_name=%s, email=%s, phone=%s, company=%s, notes=%s
                     WHERE id=%s
                 """, (
-                    data["firstName"], data["lastName"], data["email"],
-                    data["phone"], data["company"], data["notes"], contact_id
+                    data.get("firstName", ""),
+                    data.get("lastName", ""),
+                    data.get("email", ""),
+                    data.get("phone", ""),
+                    data.get("company", ""),
+                    data.get("notes", ""),
+                    contact_id
                 ))
                 conn.commit()
 
