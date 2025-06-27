@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef4beaa2-cec0-4985-9af2-077a902f9b3e" name="Changes" comment="commit and push">
+      <change afterPath="$PROJECT_DIR$/contacts_api/admins.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contacts_api/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/contacts_api/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contacts_api/db_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/contacts_api/db_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts_api/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/contacts_api/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,18 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "avuthuamrutha28"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;avuthuamrutha28&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/avuthuamrutha28/contactbook-api",
-    "accountId": "c4463215-a853-4067-a27e-847a6fc827bc"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/avuthuamrutha28/contactbook-api&quot;,
+    &quot;accountId&quot;: &quot;c4463215-a853-4067-a27e-847a6fc827bc&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -45,18 +45,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Run Flask.executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.contact_book.executor": "Run",
-    "Python.db_service (1).executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Run Flask.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.contact_book.executor&quot;: &quot;Run&quot;,
+    &quot;Python.db_service (1).executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.app">
     <configuration name="Run Flask" type="PythonConfigurationType" factoryName="Python">
       <module name="Python_flask" />
@@ -186,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750388628606</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit and push">
+      <option name="closed" value="true" />
+      <created>1750566786537</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750566786537</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
